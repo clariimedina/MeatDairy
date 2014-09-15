@@ -1,0 +1,14 @@
+$(document).ready(function(){
+    $('#inicio').click(function(){
+        $('#contenido').load('templates/carrusel.php');
+    });
+    $('#acercade').click(function(){
+        $('#contenido').load('templates/acercade.php');
+    });
+    $('#productos').click(function(){
+        $('#contenido').load('templates/productos.php');
+    });
+    $('#contacto').click(function(){
+        $('#contenido').load('templates/contacto.php');
+    });
+});

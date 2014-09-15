@@ -1,0 +1,11 @@
+
+	<head>
+		<meta charset= "UTF-8">
+		<title>Meat y Dairy</title>
+
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+   		<link href="css/flat-ui.css" rel="stylesheet">
+		<link href="images/Logo/vaca.png" rel="shortcut icon" > 
+		<link href="css/estilo.css" rel="stylesheet">
+	</head>
+	<body>

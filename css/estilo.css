@@ -1,0 +1,300 @@
+/*HEADER */
+#banner-header{
+	margin-top:-65px;
+ 	margin-left: 150px;
+	width: 300px;
+}
+#img-logo {
+	width:160px;
+	margin-left:150px;
+	padding-top:10px;  
+}
+#border-header{
+
+	margin-top:-55px;
+	width:1365px;
+	height:20px;
+	background-color:#009045;
+}
+
+header nav {
+
+	position:absolute;
+	 z-index:100;
+}
+body {
+
+	background-color:#ededed;
+}
+
+div#menu ul {
+	margin-left:800px;
+	margin-top:-50px;
+}
+
+div#menu ul li{
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-right: 15px;
+	margin-left: 10px;
+	border-bottom-style: solid;
+	border-bottom-color:#009045;
+	font-size:20px;
+	font-family:"Rokkitt";
+}
+div#menu ul li:hover{
+	background-color:#009045;
+	border-radius: 5px;
+}
+
+.menu-letras{
+	color:black !important;
+}
+
+.menu-letras:hover{
+	color: white !important;
+}
+
+#redesSociales-section {
+	margin-left:1140px;
+	margin-top:-110px;
+}
+.img-RedesSociales{
+	width:40px;
+	margin-left:20px;
+	-webkit-filter: grayscale(100%);
+ }
+
+.img-RedesSociales:hover{
+	width:40px;
+	-webkit-filter: grayscale(0%);
+}
+.redesSociales-btn{
+	margin-left:-10px;
+}
+/* INICIO */
+
+p{
+	font-family:"Rokkitt";
+	font-size:25px;
+}
+
+.carousel1{
+
+	height: 323px;
+	width: 1365px;	
+}
+
+.efectoLetras {
+
+	-webkit-filter: grayscale(0%);
+	line-height: 0px;
+	color: transparent; font-size: 50px;
+	font-weight: 300;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	filter: blur(6px);
+}
+
+.efectoLetras:hover {
+	-webkit-filter: grayscale(100%);
+	line-height: 133px;
+	color:black;
+}
+
+.imgblur:hover{
+	-webkit-filter: blur(5px);
+}
+
+.imgNoticias {
+	width:300px;
+	 height:160px;
+}
+/*CONTACTO*/
+.gmaps{  
+	padding-top:120px;
+}
+
+.contacto
+{
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.texto-contacto {
+	font-size:20px;
+	position:absolute;
+	left:15%;
+	line-height:20px;
+	color: black;
+}
+.img-contacto {
+	position: absolute;
+	left:85%;
+	opacity: 0.8;
+
+}
+.form-contacto {
+
+	left:10%;
+}
+/*PRODUCTOS*/
+div#contenedorProductos{
+	margin: auto;
+	position:absolute;
+	margin-top: 125px;
+	width: 100%;
+	height: 98%;
+	background-color: transparent;
+}
+
+div#menuProductos{
+	float: left;
+	width: 17%;
+	height: 100%;
+	background-color: #343434;
+}
+
+div#menuProductosUp{
+	width: 100%;
+	height:6%;
+	text-align: center;
+	font-family:"Rokkitt";
+	font-size: 25px;
+	font-weight: bold;
+	color: #009045;
+	line-height: 140%;
+}
+
+div#menuProductosDown{
+	float: left;
+	width: 100%;
+	height:30%;
+	background-color: #343434;
+}
+
+div#contenidoProductos{
+	float: right;
+	width: 83%;
+	background-color: transparent;
+}
+
+div#menuProductosDown dl dt{
+	margin-top: 1%;
+	background-color: #009045;
+}
+
+div#menuProductosDown ul{
+	margin:auto;
+	display: inline;
+
+}
+
+div#menuProductosDown ul li{
+	margin-left: 0%;
+	width: 100%;
+	height: 5%;
+}
+
+div#menuProductosDown ul li:hover{
+	background-color:#626262;
+}
+
+.seleccionado{
+	background-color: #626262;
+}
+
+.seleccionadoMenu{
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-right: 15px;
+	margin-left: 10px;
+	border-bottom-style: solid;
+	border-bottom-color:#009045;
+	font-size:20px;
+	font-family:"Rokkitt";
+	background-color:#009045;
+	border-radius: 5px;
+}
+
+.fuenteMenu1{
+	margin-left: 4%;
+	font-family:"Rokkitt";
+	color:white;
+	font-size: 20px;
+}
+
+.fuenteMenu2{
+	margin-left: 6%;
+	font-family:"Rokkitt";
+	color:white;
+	font-size: 15px;
+}
+
+/*angus.php*/
+.imgCirculo{
+	margin-top: 25%;
+	margin-left: 25%;
+	width: 200px;
+	height: 200px;
+}
+
+.info{
+	margin-top: 20%;
+	margin-left: 15%;
+	width: 250px;
+	height: 100px;
+	font-family: "Rokkitt";
+	font-size: 100%;
+	text-align: center;
+	background-color: #343434;
+}
+
+.leches1{
+	margin-left: 10%;
+}
+
+.leches2{
+	margin-left: 0%;
+}
+#img-lema {
+	width: 100%;
+}
+
+/* ACERCA DE */
+
+.margenAcerca{
+		padding-top: 20px;
+		margin-left: 80px; 
+		margin-bottom:  30px;
+
+
+
+}
+.linea2{
+
+	margin-left: 70px;
+	width:500px;
+	height: 1px;
+	background-color:#009045; 
+
+
+}
+
+h3 span{
+	font-family:"Rokkitt"!important;
+}
+
+.textoValor {
+
+	font-family:"Rokkitt";
+	color:black;
+}
+.textoValores {
+
+	font-size:15px;
+	color:#343434;
+}
