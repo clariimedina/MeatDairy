@@ -424,13 +424,33 @@
 }
 
 #product-left-container {
+	float: left;
 	width: 17%;
 	height: 100%;
-	background-color: pink;
+	background-color: gray;
 }
 
+#product-left-container ul {
+	list-style: none;
+	width: auto;
+	height: 100%;
+	background-color: green;
+}
+
+#product-left-container ul li {
+	margin-bottom: 1%;
+	width: 100%;
+	height: 7%;
+	background-color: blue;
+}
+
+
+
+
+
 #product-right-container {
-	width: 88%;
+	float: right;
+	width: 83%;
 	height: 100%;
 	background-color: orange;
 }
