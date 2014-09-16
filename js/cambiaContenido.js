@@ -1,7 +1,6 @@
 $(document).ready(function(){
     $('#angus').click(function(){
         $('#contenidoProductos').load('templates/secciones/angus.php');
-
     });
     $('#beefmaster').click(function(){
         $('#contenidoProductos').load('templates/secciones/beefmaster.php');

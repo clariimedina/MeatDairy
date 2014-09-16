@@ -1,22 +1,25 @@
-
-<header>
-	<nav> 
-		<img id="banner-header"src="images/ImagenesInicio/banner4.png">
-		<img  id="img-logo" class="dance" src="images/Logo/5.png">
-		<div id="border-header"></div>
-			<div id="menu">
-				<ul>
-					<li><a class="menu-letras seleccionadoOn" id="inicio" href="#"> Inicio </a></li>
-					<li><a class="menu-letras seleccionadoOn" id="acercade" href="#"> Nosotros</a></li>
-					<li><a class="menu-letras seleccionadoOn" id="productos" href="#">Productos</a></li>
-					<li><a class="menu-letras seleccionadoOn" id="contacto" href="#">Contacto</a></li>
-				</ul>
-		</div>
-			<div id="redesSociales-section">
-				<a class="redesSociales-btn"href=""><img class="img-RedesSociales" src="images/png/facebook112.png"></a>
-				<a class="redesSociales-btn" href=""><img class="img-RedesSociales"src="images/png/social921.png"></a>
-				<a class="redesSociales-btn" href=""><img class="img-RedesSociales" src="images/png/twitter51.png"></a>
-			</div>
-		</div>
-	</nav>
+<header id="header-container">
+    <div id="two-parts">
+        <div id="header-left"></div>
+    	<div id="header-right">
+            <div id="header-icon">
+                <i id="header-icon-one" class="fa fa-facebook-square fa-2x header-format-icon"></i>
+                <i id="header-icon-two" class="fa fa-google-plus-square fa-2x header-format-icon"></i>
+                <i id="header-icon-three" class="fa fa-twitter-square fa-2x header-format-icon"></i>
+            </div>
+    		<div id="header-menu">
+    			<ul>
+               	    <li class="menu-selected-option"><a id="home" class="current-option-selected" href="#">Inicio</a></li>
+                    <li><a id="about" class="current-option-selected" href="#">Nosotros</a></li>
+                    <li><a id="products" class="current-option-selected" href="#">Productos</a></li>
+                    <li><a id="contact" class="current-option-selected" href="#">Contactos</a></li>
+                </ul>
+    		</div>
+    	</div>
+    </div>
+    <div id="header-line"></div>
+    <div id="header-image-cow-head" class="dance"><img src="images/logo/logo.png" id="image-cow-head"></div>
 </header>
+
+
+

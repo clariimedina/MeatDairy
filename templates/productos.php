@@ -66,14 +66,9 @@
         </div><!--Termina menuProductos-->
 
         <div id="contenidoProductos">
-            <img id="img-lema" src="images/imagenesProductos/banner5.png">
+            Los mejores Productos
         </div>
     </div><!--Termina contenedorProductos-->
-    <footer >
-    <div style="position:absolute; margin-top:715px; background-color:gray; width:100%; ">
-        <center>Meat & Dairy S.A de C.v</center>
-    </div>
-    </footer> 
 </section>
 
 
