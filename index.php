@@ -33,14 +33,5 @@
 	<script type="text/javascript" src="js/funcionCarrusel.js"></script>
 	<script type="text/javascript" src="js/cambiaContenidoIndex.js"></script>
 
-	<script type="text/javascript">
-		$(document).ready(function(){
-		    $('.current-option-selected').click(function(){
-		        $('.menu-selected-option').removeClass('menu-selected-option');
-		        $(this).parent().addClass('menu-selected-option');
-		    });
-		});	
-	</script>
-
 	</body>
 </html>
