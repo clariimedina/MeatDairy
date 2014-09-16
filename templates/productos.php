@@ -1,6 +1,10 @@
 <section id="body-product-container">
     <div id="product-left-container">
-        
+        <ul>
+            <li>Ganado</li>
+            <li>Cortes</li>
+            <li>Lácteos</li>
+        </ul>
     </div> <!--End product-left-container-->
 
 
