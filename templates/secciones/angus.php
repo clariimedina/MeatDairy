@@ -12,12 +12,12 @@
 $(document).ready(function(response) {
     $.ajax({
             url: "http://localhost/documentsProject/index.php/api/obtieneGanado?raza=1", // URL del recurso
-            type: "GET",
+            type: "GET", 
             dataType: "json",
             success: function(response) {
                 var codigo='';
                 if (response.success == true) {
-                    $.each(response.ganados, function(index, ganado) { //? function(Index,ganado)
+                    $.each(response.ganados, function(index, ganado) { // function(Index,ganado)
 
                         codigo += '<li style=\"display: inline-block;\">';
                         codigo += '<a class="fancybox" rel="gallery1" href="images/imagenesProductos/'+ganado.foto+'" title="">'
@@ -28,6 +28,7 @@ $(document).ready(function(response) {
                         codigo += '<h6>'+ganado.precio+'</h6>';
                         codigo += '<h6>'+ganado.raza+'</h6>';
                         codigo += '</li>';
+
                     });
                     $('#listadoGanado').html(codigo);
                 }
