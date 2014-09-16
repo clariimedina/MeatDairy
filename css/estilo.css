@@ -1,300 +1,418 @@
-/*HEADER */
-#banner-header{
-	margin-top:-65px;
- 	margin-left: 150px;
-	width: 300px;
-}
-#img-logo {
-	width:160px;
-	margin-left:150px;
-	padding-top:10px;  
-}
-#border-header{
-
-	margin-top:-55px;
-	width:1365px;
-	height:20px;
-	background-color:#009045;
+*{
+	margin: 0px;
+	padding: 0px;
 }
 
-header nav {
+/*base color #1FA67A*/
 
-	position:absolute;
-	 z-index:100;
-}
-body {
-
-	background-color:#ededed;
-}
-
-div#menu ul {
-	margin-left:800px;
-	margin-top:-50px;
+/*Header index*/
+#general-container {
+	position: absolute;
+	width: 100%;
+	height:100%;
+	/*background-color: pink;*/
 }
 
-div#menu ul li{
+#header-container {
+	width: 100%;
+	height: 18%;
+	background-color: #1FA67A;
+}
+
+#two-parts {
+	width: 100%;
+	height: 85%;
+	/*background-color: gray;*/
+}
+
+#header-left {
+	float: left;
+	width: 50%;
+	height: 100%;
+	/*background-color: red;*/
+}
+
+#header-right {
+	float: right;
+	width: 50%;
+	height: 100%;
+	/*background-color: orange;*/
+}
+
+#header-icon {
+	position: absolute;
+	width: 9%;
+	margin-top: 1%;
+	margin-left: 40%; 
+	text-align: right;
+}
+
+.header-format-icon {
+	margin-left: 1%;
+	color: white;
+}
+
+#header-icon-one:hover {
+	color: #3B5998;
+}
+
+#header-icon-two:hover {
+	color: #D34836;
+}
+
+#header-icon-three:hover {
+	color: #0084B4;
+}
+
+#header-menu {
+	margin-top: 11%;
+	margin-left: 20%;
+	width: 80%;
+	height: 33%;
+	line-height: 2;
+	/*background-color: blue;*/
+}
+
+#header-menu ul {
+ 	list-style: none;
+ 	margin: auto;
+ 	width: 100%;
+ 	height: 100%;
+	/*background-color: pink;*/
+}
+
+#header-menu ul li {
 	display: inline-block;
-	padding-right: 10px;
-	padding-left: 10px;
-	margin-right: 15px;
-	margin-left: 10px;
-	border-bottom-style: solid;
-	border-bottom-color:#009045;
-	font-size:20px;
-	font-family:"Rokkitt";
-}
-div#menu ul li:hover{
-	background-color:#009045;
-	border-radius: 5px;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 24%;
+	height: 100%;
+	text-align: center;
 }
 
-.menu-letras{
-	color:black !important;
+#header-menu ul li:hover {
+	border-radius: 0.5em 0.5em 0 0;
+	/*background-color: #1FA67A;*/
+	background-color: #CCCCCC;
 }
 
-.menu-letras:hover{
-	color: white !important;
+.menu-selected-option {
+	border-radius: 0.5em 0.5em 0 0;
+	background-color: #CCCCCC;	
 }
 
-#redesSociales-section {
-	margin-left:1140px;
-	margin-top:-110px;
-}
-.img-RedesSociales{
-	width:40px;
-	margin-left:20px;
-	-webkit-filter: grayscale(100%);
- }
-
-.img-RedesSociales:hover{
-	width:40px;
-	-webkit-filter: grayscale(0%);
-}
-.redesSociales-btn{
-	margin-left:-10px;
-}
-/* INICIO */
-
-p{
-	font-family:"Rokkitt";
-	font-size:25px;
+#header-menu ul li a {
+	color: white;
 }
 
-.carousel1{
-
-	height: 323px;
-	width: 1365px;	
+#header-line {
+	position: relative;
+	width: 100%;
+	height: 16%;
+	background-color:  #CCCCCC;
+	z-index: 99999;
 }
 
-.efectoLetras {
-
-	-webkit-filter: grayscale(0%);
-	line-height: 0px;
-	color: transparent; font-size: 50px;
-	font-weight: 300;
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-ms-transition: all 0.5s ease;
-	transition: all 0.5s ease;
-	filter: blur(6px);
+#header-image-cow-head {
+	position: absolute;
+	margin-top: -8%;
+	margin-left: 43%;
+	height: 10px;
+	z-index: 99999;
 }
 
-.efectoLetras:hover {
-	-webkit-filter: grayscale(100%);
-	line-height: 133px;
-	color:black;
+#image-cow-head {
+	border: 0;
+	width: 40%;
+	
 }
 
-.imgblur:hover{
-	-webkit-filter: blur(5px);
+#content {
+	width: auto;
+	height: auto;
 }
 
-.imgNoticias {
-	width:300px;
-	 height:160px;
-}
-/*CONTACTO*/
-.gmaps{  
-	padding-top:120px;
+/*Body index*/
+#body-container {
+	width: 100%;
+	height: 29em;
+	/*background-color: red;*/
 }
 
-.contacto
-{
-	margin-left: 50px;
-	margin-top: 50px;
+#body-carousel-container {
+	width: 100%;
+	/*background-color: green;*/
 }
-.texto-contacto {
-	font-size:20px;
-	position:absolute;
-	left:15%;
-	line-height:20px;
+
+#body-images-container {
+	width: 100%;
+	height: 45%;
+	padding: 2% 0 2% 0;
+	/*background-color: orange;*/
+}
+
+.body-images-list {
+	width: 100%;
+	height: 92%;
+	/*background-color: gray;*/
+}
+
+.body-images-col {
+	display: inline-block;
+	width: 24%;
+	height: 100%;
+	border: 1px solid #CCCCCC;
+	/*background-color: brown;*/
+}
+
+.left-space {
+	margin-left: 7%;
+}
+
+.body-images-col p {
+	position: absolute;
+	margin-top: -10%;
+	margin-left: 2%;
+	font-size: x-large;
+	font-weight: bold;
+	text-align: center;
+	color: transparent;
+	z-index: 99999;
+}
+
+.body-images-col p:hover {
 	color: black;
 }
-.img-contacto {
-	position: absolute;
-	left:85%;
-	opacity: 0.8;
 
-}
-.form-contacto {
-
-	left:10%;
-}
-/*PRODUCTOS*/
-div#contenedorProductos{
-	margin: auto;
-	position:absolute;
-	margin-top: 125px;
+.body-images {
 	width: 100%;
-	height: 98%;
-	background-color: transparent;
-}
-
-div#menuProductos{
-	float: left;
-	width: 17%;
 	height: 100%;
-	background-color: #343434;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
 }
 
-div#menuProductosUp{
-	width: 100%;
-	height:6%;
-	text-align: center;
-	font-family:"Rokkitt";
-	font-size: 25px;
-	font-weight: bold;
-	color: #009045;
-	line-height: 140%;
-}
-
-div#menuProductosDown{
-	float: left;
-	width: 100%;
-	height:30%;
-	background-color: #343434;
-}
-
-div#contenidoProductos{
-	float: right;
-	width: 83%;
-	background-color: transparent;
-}
-
-div#menuProductosDown dl dt{
-	margin-top: 1%;
-	background-color: #009045;
-}
-
-div#menuProductosDown ul{
-	margin:auto;
-	display: inline;
-
-}
-
-div#menuProductosDown ul li{
-	margin-left: 0%;
+/*Footer index*/
+#footer-container {
 	width: 100%;
 	height: 5%;
-}
-
-div#menuProductosDown ul li:hover{
-	background-color:#626262;
-}
-
-.seleccionado{
-	background-color: #626262;
-}
-
-.seleccionadoMenu{
-	display: inline-block;
-	padding-right: 10px;
-	padding-left: 10px;
-	margin-right: 15px;
-	margin-left: 10px;
-	border-bottom-style: solid;
-	border-bottom-color:#009045;
-	font-size:20px;
-	font-family:"Rokkitt";
-	background-color:#009045;
-	border-radius: 5px;
-}
-
-.fuenteMenu1{
-	margin-left: 4%;
-	font-family:"Rokkitt";
-	color:white;
-	font-size: 20px;
-}
-
-.fuenteMenu2{
-	margin-left: 6%;
-	font-family:"Rokkitt";
-	color:white;
-	font-size: 15px;
-}
-
-/*angus.php*/
-.imgCirculo{
-	margin-top: 25%;
-	margin-left: 25%;
-	width: 200px;
-	height: 200px;
-}
-
-.info{
-	margin-top: 20%;
-	margin-left: 15%;
-	width: 250px;
-	height: 100px;
-	font-family: "Rokkitt";
-	font-size: 100%;
+	font-size: medium;
+	font-weight: bold;
+	color: #1FA67A;
 	text-align: center;
-	background-color: #343434;
+	line-height: 2;
+	background-color: #CCCCCC;
 }
 
-.leches1{
-	margin-left: 10%;
-}
+/*About*/
 
-.leches2{
-	margin-left: 0%;
-}
-#img-lema {
+#body-about-container {
 	width: 100%;
+	height: 50em;
+	/*background-color: transparent;*/
 }
 
-/* ACERCA DE */
-
-.margenAcerca{
-		padding-top: 20px;
-		margin-left: 80px; 
-		margin-bottom:  30px;
-
-
-
-}
-.linea2{
-
-	margin-left: 70px;
-	width:500px;
-	height: 1px;
-	background-color:#009045; 
-
-
+#about-image-container {
+	width: 100%;
+	height: 33%;
+	/*background-color: yellow;*/
 }
 
-h3 span{
-	font-family:"Rokkitt"!important;
+#about-image {
+	width: 100%;
+	height: 100%;
 }
 
-.textoValor {
-
-	font-family:"Rokkitt";
-	color:black;
+#about-content {
+	width: 100%;
+	height: 30%;
+	/*background-color: pink;*/
 }
-.textoValores {
 
-	font-size:15px;
-	color:#343434;
+#about-content-left {
+	float: left;
+	width: 50%;
+	height: 100%;
+	/*background-color: green;*/
+}
+
+#about-content-right {
+	float: right;
+	width: 50%;
+	height: 100%;
+	/*background-color: brown;*/
+}
+
+#about-values {
+	width: 100%;
+	height: 37%;
+	/*background-color: orange;*/
+}
+
+.font-VM {
+	margin-top: 4%;
+	margin-left: 6%;
+	width: 90%;
+	font-family: myriad;
+	font-weight: bold;
+	color: #1FA67A;
+	border-bottom: 1px solid #1FA67A;
+}
+
+.about-line p{
+	width: 90%;
+	margin-top: 2%;
+	margin-left: 6%;
+	text-align: justify;
+	font-size: large;
+	color: gray;
+}
+
+.font-values-title {
+	margin-left: 2%;
+	width: 95%;
+	height: 14%;
+	font-family: myriad;
+	font-weight: bold;
+	color: #1FA67A;	
+	border-bottom: 1px solid #1FA67A;
+	text-align: justify;
+	/*background-color: pink;*/
+}
+
+#about-values-list {
+	width: 100%;
+	height: 86%;
+	padding: 1% 0 0% 3%;
+	/*background-color: blue;*/
+}
+
+.about-values-item {
+	padding-top: 1%;
+	float:left;
+	margin-left: 1%;
+	width: 18%;
+	height: 100%;
+	/*background-color: brown;*/
+}
+
+.about-values-icon {
+	width: 100%;
+	height: 40%;
+	text-align: center;
+	color: #1FA67A;
+	/*background-color: red;*/
+}
+
+.about-values-content {	
+	width: 100%;
+	height: 60%;
+	font-size: medium;
+	text-align: center;
+	color: gray;
+	/*background-color: white;*/
+}
+
+/*Contact*/
+
+#body-contact-container {
+	width: 100%;
+	height: 38em;
+	/*background-color: blue;*/
+}
+
+#contact-gmaps-container {
+	width: 100%;
+	height: 43%;
+	/*background-color: yellow;*/
+}
+
+#contact-gmaps {
+	width: 100%;
+	height: 100%;
+}
+
+#contact-content-container {
+	width: 100%;
+	height: 57%;
+	/*background-color: orange;*/
+}
+
+#contact-content-left {
+	float: left;
+	width: 60%;
+	height: 100%;
+	/*background-color:  brown;*/
+}
+
+#contact-content-right {
+	float: right;	
+	padding-left: 4%;
+	width: 40%;
+	height: 100%;
+	padding-top: 3%;
+	/*background-color: red;*/
+}
+
+#contact-font-title {
+	padding-top: 1%;
+	padding-left: 4%;
+	width: 100%;
+	height:10%;
+	font-size: x-large;
+	font-weight: bold;
+	color: gray;
+	/*background-color: black;*/
+}
+
+#contact-form {
+	width: 100%;
+	height: 90%;
+	/*background-color: green;	*/
+}
+
+.contact-form-format {
+	padding-top: 3%;
+}
+
+.contact-description-height {
+	height: 50%;
+}
+
+.contact-form-button {
+	padding-top: 2%;
+	padding-left: 15%;
+}
+
+.contact-color-button {
+	background-color: #1FA67A;
+}
+
+#contact-icon-container {
+	float: left;
+	width: 15%;
+	height: 100%;
+	/*background-color: pink;*/
+}
+
+.contact-icon {
+	margin-top: 28%;
+	color: #1FA67A;
+}
+
+#contact-info-container {
+	padding-top: 4%;
+	padding-left: 10%;
+	float: right;
+	width: 85%;
+	height: 100%;
+	/*background-color: yellow;*/
+}
+
+#contact-info-container p {
+	margin: 0 0 0 0;
+	width: 100%;
+	height: 30%;
+	color: gray;
+	/*background-color: white;*/
 }

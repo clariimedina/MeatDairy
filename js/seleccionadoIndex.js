@@ -1,6 +1,7 @@
 $(document).ready(function(){
-    $('.seleccionadoOn').click(function(){
-        $('.seleccionadoMenu').removeClass('seleccionadoMenu');
-        $(this).parent().addClass('seleccionadoMenu');
+    $('.current-option-selected').click(function(){
+        $('.menu-selected-option').removeClass('menu-selected-option');
+        $(this).parent().addClass('menu-selected-option');
     });
 });
+    

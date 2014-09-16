@@ -1,5 +1,3 @@
-<!-- seccion de para mostrar el ganado de raza angus -->
-
 <section>
     <ul id="listadoGanado" >
 
@@ -34,8 +32,6 @@ $(document).ready(function(response) {
                 }
                 else {
 
-                }
-            }
-        });
-});
+                    }
+
 </script>

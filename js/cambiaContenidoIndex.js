@@ -1,14 +1,14 @@
 $(document).ready(function(){
-    $('#inicio').click(function(){
-        $('#contenido').load('templates/carrusel.php');
+    $('#home').click(function(){
+        $('#content').load('templates/carrusel.php');
     });
-    $('#acercade').click(function(){
-        $('#contenido').load('templates/acercade.php');
+    $('#about').click(function(){
+        $('#content').load('templates/acercade.php');
     });
-    $('#productos').click(function(){
-        $('#contenido').load('templates/productos.php');
+    $('#products').click(function(){
+        $('#content').load('templates/productos.php');
     });
-    $('#contacto').click(function(){
-        $('#contenido').load('templates/contacto.php');
+    $('#contact').click(function(){
+        $('#content').load('templates/contacto.php');
     });
 });
