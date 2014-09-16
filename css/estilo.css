@@ -416,3 +416,21 @@
 	color: gray;
 	/*background-color: white;*/
 }
+
+#body-product-container {
+	width: 100%;
+	height: 29em;
+	background-color: red;
+}
+
+#product-left-container {
+	width: 17%;
+	height: 100%;
+	background-color: pink;
+}
+
+#product-right-container {
+	width: 88%;
+	height: 100%;
+	background-color: orange;
+}
