@@ -1,22 +1,13 @@
-<!-- seccion de para mostrar el ganado de raza angus -->
-
-<section>
-    <ul id="listadoGanado" >
-
-    </ul>
-    <button onclick="generapdf()">mdksaljklsa</button>
-</section>
-
-<!-- script para mostrar el contenido de cada vaca raza angus -->
-
-<script type="text/javascript">
-$(document).ready(function(response) {
+$(document).ready(function generapdf(response) {
+    alert("hola");
+    var codigo='';
     $.ajax({
-            url: "http://localhost/documentsProject/index.php/api/obtieneGanado?raza=1", // URL del recurso
-            type: "GET", 
+            url: "http://localhost/documentsProject/index.php/api/CrearPDF?raza=1", // URL del recurso
+            type: "POST", 
             dataType: "json",
+            data:{codigo: codigo},
             success: function(response) {
-                var codigo='';
+                
                 if (response.success == true) {
                     $.each(response.ganados, function(index, ganado) { // function(Index,ganado)
 
@@ -31,14 +22,8 @@ $(document).ready(function(response) {
                         codigo += '</li>';
 
                     });
-                    $('#listadoGanado').html(codigo);
-                }
-                else {
-
+                return;
                 }
             }
         });
 });
-</script>
-
-<script type="text/javascript" src="js/pruebapdf.js"></script>

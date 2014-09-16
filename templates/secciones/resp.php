@@ -4,7 +4,6 @@
     <ul id="listadoGanado" >
 
     </ul>
-    <button onclick="generapdf()">mdksaljklsa</button>
 </section>
 
 <!-- script para mostrar el contenido de cada vaca raza angus -->
@@ -32,6 +31,7 @@ $(document).ready(function(response) {
 
                     });
                     $('#listadoGanado').html(codigo);
+                    return codigo;
                 }
                 else {
 
@@ -40,5 +40,3 @@ $(document).ready(function(response) {
         });
 });
 </script>
-
-<script type="text/javascript" src="js/pruebapdf.js"></script>

@@ -1,35 +1,37 @@
-<section>
-    <div class="row">
-        <div class="col-md-3">
-            <a class="fancybox" rel="gallery1" href="images/imagenesProductos/hembraBelmontRed.jpg" title="">
-                <img src="images/imagenesProductos/hembraBelmontRed.jpg" alt="hembra angus" class="img-circle imgCirculo">
-            <a>
-        </div> 
-        <div class="col-md-1"></div>
-        <div class="col-md-3">
-            <a class="fancybox" rel="gallery1" href="images/imagenesProductos/machoBelmontRed.jpg" title="">
-                <img src="images/imagenesProductos/machoBelmontRed.jpg" alt="macho angus" class="img-circle imgCirculo">
-            </a>
-        </div>
-        <div class="col-md-1"></div>
-        <div class="col-md-3">
-            <a class="fancybox" rel="gallery1" href="images/imagenesProductos/becerroBelmontRed.jpg" title="">
-                <img src="images/imagenesProductos/becerroBelmontRed.jpg" alt="becerro angus" class="img-circle imgCirculo">
-            </a>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-3">
-            <p class="bg-primary info">BELMONT RED HEMBRA<br>500 kg.<br>$ 40,000</p>
-        </div> 
-        <div class="col-md-1"></div>
-        <div class="col-md-3">
-            <p class="bg-primary info">BELMONT RED MACHO<br>650 kg.<br>$ 38,000</p>
-        </div>
-        <div class="col-md-1"></div>
-        <div class="col-md-3">
-            <p class="bg-primary info">BELMONT RED BECERRO<br>350 kg.<br>$ 19,000</p>
-        </div>
-    </div>
+<section id="listabelmont">
+    <ul>
+    </ul>
 </section>
+
+<script type="text/javascript">
+$(document).ready(function(response) {
+    $.ajax({
+            url: "http://localhost/documentsProject/index.php/api/obtieneGanado?raza=3", // URL del recurso
+            type: "GET", 
+            dataType: "json",
+            success: function(response) {
+                var codigo='';
+                if (response.success == true) {
+                    $.each(response.ganados, function(index, ganado) { // function(Index,ganado)
+
+                        codigo += '<li style=\"display: inline-block;\">';
+                        codigo += '<a class="fancybox" rel="gallery1" href="images/imagenesProductos/'+ganado.foto+'" title="">'
+                        codigo += '<img width=200 src="images/imagenesProductos/'+ganado.foto+'">';
+                        codigo += '</a>'
+                        codigo += '<h4>'+ganado.nombre+'</h4>';
+                        codigo += '<h6>'+ganado.peso+'</h6>';
+                        codigo += '<h6>'+ganado.precio+'</h6>';
+                        codigo += '<h6>'+ganado.raza+'</h6>';
+                        codigo += '</li>';
+
+                    });
+                    $('#listabelmont').html(codigo);
+                    return codigo;
+                }
+                else {
+
+                }
+            }
+        });
+});
+</script>

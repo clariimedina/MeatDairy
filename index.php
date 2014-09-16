@@ -4,11 +4,11 @@
 		<meta charset= "UTF-8">
 		<title>Meat y Dairy</title>
 		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-   		<link href="css/flat-ui.css" rel="stylesheet">
+		<link href="css/flat-ui.css" rel="stylesheet">
+		<link href="css/estilo.css" rel="stylesheet">
    		<link href="fancyBox/source/jquery.fancybox.css" type="text/css" rel="stylesheet">
    		<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 		<link href="images/Logo/4.png" rel="shortcut icon" > 
-		<link href="css/estilo.css" rel="stylesheet">
 		<link href="css/danceEffects.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
