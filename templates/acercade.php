@@ -6,14 +6,16 @@
 
     <div id="about-content">
         <div id="about-content-left">
-            <div class="font-VM"><i class="fa fa-line-chart fa-2x">Misión</i></div>
+            <div class="about-font-icon"><i class="fa fa-line-chart fa-2x"></i></div>
+            <div class="about-font-title">Misión</div>
             <div class="about-line">
                 <p>Proporcionar a los clientes productos de calidad con marca de prestigio y 
                 valor crecientes.</p>
             </div>
         </div>
         <div id="about-content-right">
-            <div class="font-VM"><i class="fa fa-eye fa-2x">Visión</i></div>
+            <div class="about-font-icon"><i class="fa fa-eye fa-2x"></i></div>
+            <div class="about-font-title">Visión</div>
             <div class="about-line">
                 <p>Meat Dairy busca consolidarse, crecer y posicionarse como una organización lider, reconocida por la calidad de sus productos y por la efectividad de asegurar
                 las necesidades y expectativas de sus consumidores, en un marco de atención y servicio competetivo para sus 
@@ -23,7 +25,8 @@
     </div>
 
     <div id="about-values">
-        <div class="font-values-title"><i class="fa fa-heart fa-2x">Valores</i></div>
+        <div class="about-font-icon-values"><i class="fa fa-heart fa-2x"></i></div>
+        <div class="about-font-values-title">Valores</div>
         <div id="about-values-list">
             <div class="about-values-item">
                 <i class="fa fa-search fa-5x about-values-icon"></i>
