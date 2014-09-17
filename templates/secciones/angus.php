@@ -45,7 +45,7 @@ $(document).ready(function(response) {
 
 
                     });
-                    $('#listadoGanado').html(codigo);
+                    $('#lista-prod').html(codigo);
                 }
                 else {
                     }
