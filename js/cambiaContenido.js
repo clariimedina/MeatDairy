@@ -1,59 +1,26 @@
 $(document).ready(function(){
     $('#angus').click(function(){
-        $('#contenidoProductos').load('templates/secciones/angus.php');
+        $('#product-right-container').load('templates/secciones/angus.php');
     });
     $('#beefmaster').click(function(){
-        $('#contenidoProductos').load('templates/secciones/beefmaster.php');
+        $('#product-right-container').load('templates/secciones/beefmaster.php');
     });
     $('#belmontRed').click(function(){
-        $('#contenidoProductos').load('templates/secciones/belmontRed.php');
+        $('#product-right-container').load('templates/secciones/belmontRed.php');
     });
     $('#tudanca').click(function(){
-        $('#contenidoProductos').load('templates/secciones/tudanca.php');
+        $('#product-right-container').load('templates/secciones/tudanca.php');
     });
-    $('#lecheEntera').click(function(){
-        $('#contenidoProductos').load('templates/secciones/lecheEntera.php');
+    $('#leche').click(function(){
+        $('#product-right-container').load('templates/secciones/leche.php');
     });
-    $('#lecheDeslactosada').click(function(){
-        $('#contenidoProductos').load('templates/secciones/lecheDeslactosada.php');
+    $('#queso').click(function(){
+        $('#product-right-container').load('templates/secciones/queso.php');
     });
-    $('#lecheSemidescremada').click(function(){
-        $('#contenidoProductos').load('templates/secciones/lecheSemidescremada.php');
+    $('#crema').click(function(){
+        $('#product-right-container').load('templates/secciones/crema.php');
     });
-    $('#lechePolvo').click(function(){
-        $('#contenidoProductos').load('templates/secciones/lecheEnPolvo.php');
+    $('#mantequilla').click(function(){
+        $('#product-right-container').load('templates/secciones/mantequilla.php');
     });
-    $('#quesosDuros').click(function(){
-        $('#contenidoProductos').load('templates/secciones/quesosDuros.php');
-    });
-    $('#quesosBlandos').click(function(){
-        $('#contenidoProductos').load('templates/secciones/quesosBlandos.php');
-    });
-    $('#quesosProcesados').click(function(){
-        $('#contenidoProductos').load('templates/secciones/quesosProcesados.php');
-    });
-    $('#yoghurtBajoEnGrasa').click(function(){
-        $('#contenidoProductos').load('templates/secciones/yoghurtBajoGrasa.php');
-    });
-    $('#yoghurtconFruta').click(function(){
-        $('#contenidoProductos').load('templates/secciones/yoghurtFruta.php');
-    });
-    $('#yoghurtbebible').click(function(){
-        $('#contenidoProductos').load('templates/secciones/yoghurtbebible.php');
-    });
-    $('#cremaSimple').click(function(){
-        $('#contenidoProductos').load('templates/secciones/crema.php');
-    });
-    $('#mediaCrema').click(function(){
-        $('#contenidoProductos').load('templates/secciones/crema.php');
-    });
-    $('#cremaBatida').click(function(){
-        $('#contenidoProductos').load('templates/secciones/crema.php');
-    });
-    $('#mantequillaOrdinaria').click(function(){
-        $('#contenidoProductos').load('templates/secciones/mantequilla.php');
-    });
-    $('#mantequillaBaja').click(function(){
-        $('#contenidoProductos').load('templates/secciones/mantequilla.php');
-    });            
 });

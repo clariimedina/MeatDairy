@@ -9,13 +9,13 @@
 <script type="text/javascript">
 $(document).ready(function(response) {
     $.ajax({
-            url: "http://localhost/documentsProject/index.php/api/obtieneMantequillas", // URL del recurso
+            url: "http://localhost/documentsProject/index.php/api/obtieneLeches", // URL del recurso
             type: "GET", 
             dataType: "json",
             success: function(response) {
                 var codigo='';
                 if (response.success == true) {
-                    $.each(response.mantequillas, function(index, mantequillas) { // function(Index,queso)
+                    $.each(response.leches, function(index, leches) { // function(Index,queso)
 
                         /*codigo += '<li style=\"display: inline-block;\">';
                         codigo += '<a class="fancybox" rel="gallery1" href="images/imagenesProductos/'+ganado.foto+'" title="">'
@@ -29,13 +29,14 @@ $(document).ready(function(response) {
 
                         codigo += '<li style="list-style:none; display: inline-block;">';
                         codigo += '<div style="width:60%;">';
-                        codigo += '<a class="fancybox" rel="gallery1" href="images/imagenesProductos/'+mantequillas.foto+'" title="">';
-                        codigo += '<img width=200 height=200 src="images/imagenesProductos/'+mantequillas.foto+'">';
+                        codigo += '<a class="fancybox" rel="gallery1" href="images/imagenesProductos/'+leches.foto+'" title="">';
+                        codigo += '<img width=200 height=200 src="images/imagenesProductos/'+leches.foto+'">';
                         codigo += '</a>';
                         codigo += '<button  type="button"  class="btn btn-lg btn-info" data-toggle="popover" 
                                          data-placement="bottom" title="Vaquita" data-content="        
-                                        <h4> Nombre:'+mantequillas.nombre+'</h4>
-                                        <h6> Precio:'+mantequillas.precio+'</h6>">Info</button>';
+                                        <h4> Nombre: '+leches.nombre+'</h4>
+                                        <h6> Tipo: '+leches.tipo+'</h6>
+                                        <h6> Precio: '+leches.precio+'</h6>">Info</button>';
                         codigo += '<button type="button"  class="btn btn-lg btn-danger" data-toggle="popover" 
                                         data-placement="bottom" title="Popover title" data-content="pdf">Pdf</button>';
                         codigo += '</div>';

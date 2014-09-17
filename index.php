@@ -14,7 +14,6 @@
 	<body>
 		
 		<div id="general-container">
-			
 			<?php include("templates/encabezado.php"); ?>
 			
 			<div id="content">
@@ -32,6 +31,10 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/funcionCarrusel.js"></script>
 	<script type="text/javascript" src="js/cambiaContenidoIndex.js"></script>
+	 <script>$(function () 
+      { $("[data-toggle='popover']").popover();
+      });
+   </script>
 
 	</body>
 </html>
