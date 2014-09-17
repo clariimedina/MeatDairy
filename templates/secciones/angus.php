@@ -4,7 +4,7 @@
     <ul id="listadoGanado" >
 
     </ul>
-    <button onclick="generapdf()">mdksaljklsa</button>
+    <button onclick="generapdf()">Prueba</button>
 </section>
 
 <!-- script para mostrar el contenido de cada vaca raza angus -->
@@ -28,6 +28,7 @@ $(document).ready(function(response) {
                         codigo += '<h6>'+ganado.peso+'</h6>';
                         codigo += '<h6>'+ganado.precio+'</h6>';
                         codigo += '<h6>'+ganado.raza+'</h6>';
+                        codigo += '<button onclick="generarPDF('+ganado.id+')">Generar PDF</button>';
                         codigo += '</li>';
 
                     });
