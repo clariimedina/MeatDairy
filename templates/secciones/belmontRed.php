@@ -59,9 +59,18 @@ $(document).ready(function(response) {
                 }
                 else {
                     }
+<<<<<<< HEAD
+
+                                  }   
+
+            });
+
+});
+=======
             }
         });
 });
 
              
+>>>>>>> c0a6172487ece550d29323e5a2d7576d1594d38a
 </script>

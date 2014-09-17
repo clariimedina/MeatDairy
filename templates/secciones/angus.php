@@ -30,14 +30,14 @@ $(document).ready(function(response) {
                     });
                     $('#lista-prod').html(codigo);
                 }
-                else {
-                    }
-
-                 }   
-
+                else {}
+            }   
     });
-
 });
 
 </script>
-<script>$(function () { $("[data-toggle='popover']").popover();  });</script>
+<script>
+$(function () { 
+    $("[data-toggle='popover']").popover(); 
+});
+</script>
