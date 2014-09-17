@@ -16,8 +16,8 @@ $(document).ready(function(response) {
                 var codigo='';
                 if (response.success == true) {
                     $.each(response.ganados, function(index, ganado) { // function(Index,ganado)
-
-                        /*codigo += '<li style=\"display: inline-block;\">';
+                    /*
+                        codigo += '<li style=\"display: inline-block;\">';
                         codigo += '<a class="fancybox" rel="gallery1" href="images/imagenesProductos/'+ganado.foto+'" title="">'
                         codigo += '<img width=200 src="images/imagenesProductos/'+ganado.foto+'">';
                         codigo += '</a>'
@@ -25,8 +25,18 @@ $(document).ready(function(response) {
                         codigo += '<h6>'+ganado.peso+'</h6>';
                         codigo += '<h6>'+ganado.precio+'</h6>';
                         codigo += '<h6>'+ganado.raza+'</h6>';
-                        codigo += '</li>';*/
 
+                        codigo += '</li>';
+
+                    });
+                    $('#listabeef').html(codigo);
+                    return codigo;
+                }
+                else {
+
+                }*/
+            }
+                        codigo += '</li>';*/
                         codigo += '<li style="list-style:none; display: inline-block;">';
                         codigo += '<div style="width:60%;">';
                         codigo += '<a class="fancybox" rel="gallery1" href="images/imagenesProductos/'+ganado.foto+'" title="">';
@@ -49,4 +59,7 @@ $(document).ready(function(response) {
                 }
                 else {
                     }
+        });
+});
+
 </script>
