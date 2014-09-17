@@ -41,5 +41,6 @@ $(document).ready(function(response) {
 
 
 </script>
+<script>$(function () { $("[data-toggle='popover']").popover();  });</script>
 
 

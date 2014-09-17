@@ -28,7 +28,7 @@
     <section id="body-images-container">
        <ul class="body-images-list">
             <li class="body-images-col left-space">
-                <img class="body-images" src="images/ImagenesInicio/lacteos1.jpg">
+                <img class="body-images images-blur" src="images/ImagenesInicio/lacteos1.jpg">
                 <p>Contamos con productos <br> de la mas alta calidad</p>
             </li>
             <li class="body-images-col left-space">
