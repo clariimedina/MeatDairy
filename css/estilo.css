@@ -559,3 +559,21 @@
     -moz-box-shadow:0 0px 18px #1FA67A !important;
     box-shadow:0 0px 18px #1FA67A !important;
 }
+
+#lista-prod {
+	margin-left: 7%;
+	margin-top: 7%;
+
+
+}
+#lista-prod img {
+	
+	margin-top: 5%;
+}
+
+#lista-prod button {
+	
+	margin-top: 5%;
+	margin-left: 10%;
+}
+
