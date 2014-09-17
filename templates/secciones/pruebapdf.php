@@ -1,15 +1,9 @@
 <!-- seccion de para mostrar el ganado de raza angus -->
 
-<section>
-    <ul id="listadoGanado" >
-
-    </ul>
-</section>
-
 <!-- script para mostrar el contenido de cada vaca raza angus -->
 
 <script type="text/javascript">
-$(document).ready(function generapdf(response) {
+$('#btn-pdf').click( function generapdf(response) {
     var codigo='';
     $.ajax({
             url: "http://localhost/documentsProject/index.php/api/CrearPDF", // URL del recurso
