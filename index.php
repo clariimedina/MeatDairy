@@ -12,8 +12,6 @@
 		<link href="css/danceEffects.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
-
-		<button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
 		
 		<div id="general-container">
 			<?php include("templates/encabezado.php"); ?>
@@ -33,6 +31,10 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/funcionCarrusel.js"></script>
 	<script type="text/javascript" src="js/cambiaContenidoIndex.js"></script>
+	 <script>$(function () 
+      { $("[data-toggle='popover']").popover();
+      });
+   </script>
 
 	</body>
 </html>

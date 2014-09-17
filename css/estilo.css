@@ -448,5 +448,25 @@
 	float: right;
 	width: 83%;
 	height: 100%;
-	background-color: orange;
+	background-color: gray;
 }
+
+#lista-prod {
+	margin-left: 7%;
+	margin-top: 7%;
+
+
+}
+#lista-prod img {
+	
+	margin-top: 5%;
+}
+
+#lista-prod button {
+	
+	margin-top: 5%;
+	margin-left: 10%;
+}
+
+
+
