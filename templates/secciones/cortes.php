@@ -1,6 +1,6 @@
 <section>
     <ul id="product-list" >
-,dlañkdksdñlsakldas
+dlañkdksdñlsakldas
     </ul>
 </section>
 
@@ -19,7 +19,7 @@ $(document).ready(function(response) {
 
                         codigo += '<li style=\"list-style:none;display: inline-block;\">';
                         codigo += '<p> Nombre: '+corte.nombre+'<br>';
-                         codigo += 'Peso: '+corte.peso+'Kg<br>';
+                        codigo += 'Peso: '+corte.peso+'Kg<br>';
                         codigo += 'Precio: '+corte.precio+'</p>';
                         codigo += '<a class="fancybox" rel="gallery1" href="images/imagenesProductos/'+corte.foto+'" title="">';
                         codigo += '<img width=200 src="images/imagenesProductos/'+corte.foto+'">';
