@@ -1,5 +1,5 @@
 <section>
-    <ul id="lista-prod" >
+    <ul id="product-list" >
 
     </ul>
 </section>
@@ -18,17 +18,17 @@ $(document).ready(function(response) {
                     $.each(response.ganados, function(index, ganado) { // function(Index,ganado)
 
                         codigo += '<li style=\"list-style:none;display: inline-block;\">';
-                        codigo += '<div style="width:60%;">';
+                        codigo += '<p> Nombre: '+ganado.nombre+'<br>';
+                        codigo += 'Peso: '+ganado.peso+'<br>';
+                        codigo += 'Precio: '+ganado.precio+'</p>';
                         codigo += '<a class="fancybox" rel="gallery1" href="images/imagenesProductos/'+ganado.foto+'" title="">';
                         codigo += '<img width=200 src="images/imagenesProductos/'+ganado.foto+'">';
-                        codigo += '</a>';
-                        codigo += '<button type="button" class="btn btn-lg btn-info" data-toggle="popover" data-placement="bottom" title="Vaquita" data-content="<h4>'+ganado.nombre+'</h4> <h6>'+ganado.peso+'</h6> <h6>'+ganado.precio+'</h6> <h6>'+ganado.raza+'</h6>">Info </button>';
+                        codigo += '</a>';          
                         codigo += '<button id="btn-pdf"onclick="generarPDF('+ganado.id+')">PDF</button>';
-                        codigo += '</div>';
                         codigo += '</li>';
 
                     });
-                    $('#lista-prod').html(codigo);
+                    $('#product-list').html(codigo);
                 }
                 else {
                     }
@@ -41,6 +41,6 @@ $(document).ready(function(response) {
 
 
 </script>
-<script>$(function () { $("[data-toggle='popover']").popover();  });</script>
+
 
 
