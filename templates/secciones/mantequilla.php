@@ -10,7 +10,11 @@
 <script type="text/javascript">
 $(document).ready(function(response) {
     $.ajax({
+<<<<<<< HEAD
+            url: "http://localhost:8080/documentsProject/index.php/api/obtieneMantequillas", // URL del recurso
+=======
             url: "http://localhost/documentsProject/index.php/api/ObtieneLacteos?tipo=4", // URL del recurso
+>>>>>>> 5270796e03174d2181961b66a7f699d29f9f67d5
             type: "GET", 
             dataType: "json",
             success: function(response) {

@@ -6,7 +6,7 @@
 $('#btn-pdf').click( function generapdf(response) {
     var codigo='';
     $.ajax({
-            url: "http://localhost/documentsProject/index.php/api/CrearPDF", // URL del recurso
+            url: "http://localhost:8080/documentsProject/index.php/api/CrearPDF", // URL del recurso
             type: "POST", 
             dataType: "json",
             data:{codigo: codigo},
