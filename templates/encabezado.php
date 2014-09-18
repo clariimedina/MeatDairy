@@ -17,7 +17,6 @@
     		</div>
     	</div>
     </div>
-    <div id="header-line"></div>
     <div id="header-image-cow-head" class="dance"><img src="images/logo/logo.png" id="image-cow-head"></div>
 </header>
 

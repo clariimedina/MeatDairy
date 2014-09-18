@@ -7,16 +7,19 @@
 
 /*Header index*/
 #general-container {
-	position: absolute;
+	position:absolute;
 	width: 100%;
 	height:100%;
-	/*background-color: pink;*/
 }
 
 #header-container {
 	width: 100%;
 	height: 18%;
 	background-color: #1FA67A;
+	position:relative;
+	border-bottom-style:solid;
+	border-bottom-color:#CCCCCC;
+	border-bottom-width:15px;
 }
 
 #two-parts {
@@ -114,11 +117,11 @@
 }
 
 #header-image-cow-head {
-	position: absolute;
-	margin-top: -8%;
+	position: fixed;
+	margin-top: -6%;
 	margin-left: 43%;
 	height: 10px;
-	z-index: 99999;
+	z-index: 100;
 }
 
 #image-cow-head {
