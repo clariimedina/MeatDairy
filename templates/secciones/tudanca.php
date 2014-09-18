@@ -9,7 +9,7 @@
 <script type="text/javascript">
 $(document).ready(function(response) {
     $.ajax({
-            url: "http://localhost/documentsProject/index.php/api/obtieneGanado?raza=4", // URL del recurso
+            url: "http://localhost:8080/documentsProject/index.php/api/obtieneGanado?raza=4", // URL del recurso
             type: "GET", 
             dataType: "json",
             success: function(response) {

@@ -13,7 +13,7 @@
                 </ul>
             </dd>
 
-            <dt><a class="product-menu-font2" href="#">Cortes</a></dt>
+            <dt><a id="cortes" class="product-menu-font2" href="#">Cortes</a></dt>
             
             <dt><a class="product-menu-font2" href="#">Lácteos</a></dt>
             <dd>
