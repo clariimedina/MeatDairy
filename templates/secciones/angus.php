@@ -36,14 +36,9 @@ $(document).ready(function(response) {
 });
 
 </script>
-<<<<<<< HEAD
+
 <script>
 $(function () { 
     $("[data-toggle='popover']").popover(); 
 });
 </script>
-=======
-
-
-
->>>>>>> eeb093673a6378e0be11eb5b178e1f032766a078
