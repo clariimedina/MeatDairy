@@ -1,7 +1,6 @@
 <section>
     <ul id="product-list" >
 
-
     </ul>
 </section>
 
@@ -10,39 +9,30 @@
 <script type="text/javascript">
 $(document).ready(function(response) {
     $.ajax({
-<<<<<<< HEAD
-            url: "http://localhost:8080/documentsProject/index.php/api/obtieneLeches", // URL del recurso
-=======
             url: "http://localhost/documentsProject/index.php/api/ObtieneLacteos?tipo=3", // URL del recurso
->>>>>>> 5270796e03174d2181961b66a7f699d29f9f67d5
             type: "GET", 
             dataType: "json",
             success: function(response) {
                 var codigo='';
                 if (response.success == true) {
+                    console.log(response.lacteos);
                     $.each(response.lacteos, function(index, lacteo) { // function(Index,ganado)
 
-                        codigo += '<li style=\"list-style:none;display: inline-block;\">';
+                        codigo += '<li>';
                         codigo += '<p> Nombre: '+lacteo.nombre+'<br>';
                         codigo += 'Precio: '+lacteo.precio+'</p>';
-                        codigo += '<a class="fancybox" rel="gallery1" href="images/imagenesProductos/'+lacteo.foto+'" title="">';
-                        codigo += '<img width=200 src="images/imagenesProductos/'+lacteo.foto+'">';
-                        codigo += '</a>';
+                        codigo += '<a class="fancybox" rel="gallery1" href="images/imagenesProductos/Lacteos/leche/'+lacteo.foto+'" title="">';
+                        codigo += '<img src="images/imagenesProductos/Lacteos/leche/'+lacteo.foto+'">';
+                        codigo += '</a>';          
                         codigo += '</li>';
-
                     });
                     $('#product-list').html(codigo);
                 }
-                else {
-                    }
+             }   
 
-                 }   
-
-            });
+         });
 });
 
 </script>
-
-
 
 

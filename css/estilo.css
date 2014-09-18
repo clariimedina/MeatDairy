@@ -1,4 +1,4 @@
-*{
+	*{
 	margin: 0px;
 	padding: 0px;
 }
@@ -189,15 +189,15 @@
 
 .body-images-col p:hover {
 	color:black;
-}
 
-.body-images {
+}
+.body-images{
 	width: 100%;
 	height: 100%;
 	-webkit-filter: grayscale(100%);
-	-moz-filter: grayscale(100%);
-	filter: grayscale(100%);
+
 }
+
 
 /*Footer index*/
 #footer-container {
@@ -256,15 +256,6 @@
 	/*background-color: orange;*/
 }
 
-/*.font-VM {
-	margin-top: 4%;
-	margin-left: 6%;
-	width: 90%;
-	font-family: myriad !important;
-	font-weight: bold;
-	color: #1FA67A;
-	border-bottom: 1px solid #1FA67A;
-}*/
 
 .about-font-icon {
 	float: left;
@@ -507,6 +498,10 @@
 	background-color: #CCCCCC;
 }
 
+#product-banner-init{
+	margin-top:5%;
+	width: 100%;
+}
 .list-element {
 	width: 100% !important; 
 	height: 100% !important;
@@ -619,7 +614,7 @@
 }
 
 #product-list li img {
-	width: 90%;
+	width: 84%;
 	height: 150px;
 	border-radius: 3% 3% 0 0;
 }
@@ -637,18 +632,20 @@
 	color:white;
 }
 #link-PDF-container {
-
+	background-color: #1fa67a ;
+	margin-left: 50px;
+	margin-right: 45%;
+	padding-left: 4px;
+	border-radius: 5px;
 }
-#product-list li button:focus {
-	outline-color:#1FA67A; 
-} 
-
-#product-list li button:hover {
+#link-PDF-container:hover{
 	opacity: 0.9;
 	-webkit-box-shadow:0 0px 10px #1FA67A;
     -moz-box-shadow:0 0px 10px #1FA67A;
     box-shadow:0 0px 10px #1FA67A;
-}
+
+}	
+
 #link-PDF-razas{
 	text-decoration:none;
 	color:white;
