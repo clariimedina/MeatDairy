@@ -181,20 +181,15 @@
 }
 
 .body-images-col p:hover {
-	-webkit-filter: grayscale(100%);
 	color:black;
 }
 
 .body-images {
 	width: 100%;
 	height: 100%;
-
-}
-.images-blur:hover{
-
-	-moz-filter: grayscale(50%);
-	-webkit-filter: grayscale(50%);
-	-webkit-filter: blur(5px);	
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
 }
 
 /*Footer index*/
@@ -570,9 +565,8 @@
 #lista-prod {
 	margin-left: 7%;
 	margin-top: 7%;
-
-
 }
+
 #lista-prod img {
 	
 	margin-top: 5%;
