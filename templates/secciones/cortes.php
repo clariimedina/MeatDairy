@@ -1,6 +1,6 @@
 <section>
-    <ul id="lista-prod" >
-
+    <ul id="product-list" >
+,dlañkdksdñlsakldas
     </ul>
 </section>
 
@@ -9,43 +9,36 @@
 <script type="text/javascript">
 $(document).ready(function(response) {
     $.ajax({
-            url: "http://localhost/documentsProject/index.php/api/obtieneCortes", // URL del recurso
+            url: "http://localhost/documentsProject/index.php/api/ObtieneCortes", // URL del recurso
             type: "GET", 
             dataType: "json",
             success: function(response) {
                 var codigo='';
                 if (response.success == true) {
-                    $.each(response.cortes, function(index, cortes) { // function(Index,queso)
+                    $.each(response.cortes, function(index, corte) { // function(Index,ganado)
 
-                        /*codigo += '<li style=\"display: inline-block;\">';
-                        codigo += '<a class="fancybox" rel="gallery1" href="images/imagenesProductos/'+ganado.foto+'" title="">'
-                        codigo += '<img width=200 src="images/imagenesProductos/'+ganado.foto+'">';
-                        codigo += '</a>'
-                        codigo += '<h4>'+ganado.nombre+'</h4>';
-                        codigo += '<h6>'+ganado.peso+'</h6>';
-                        codigo += '<h6>'+ganado.precio+'</h6>';
-                        codigo += '<h6>'+ganado.raza+'</h6>';
-                        codigo += '</li>';*/
-
-                        codigo += '<li style="list-style:none; display: inline-block;">';
-                        codigo += '<div style="width:60%;">';
-                        codigo += '<a class="fancybox" rel="gallery1" href="images/imagenesProductos/'+cortes.foto+'" title="">';
-                        codigo += '<img width=200 height=200 src="images/imagenesProductos/'+cortes.foto+'">';
+                        codigo += '<li style=\"list-style:none;display: inline-block;\">';
+                        codigo += '<p> Nombre: '+corte.nombre+'<br>';
+                         codigo += 'Peso: '+corte.peso+'Kg<br>';
+                        codigo += 'Precio: '+corte.precio+'</p>';
+                        codigo += '<a class="fancybox" rel="gallery1" href="images/imagenesProductos/'+corte.foto+'" title="">';
+                        codigo += '<img width=200 src="images/imagenesProductos/'+corte.foto+'">';
                         codigo += '</a>';
-                        codigo += '<button  type="button"  class="btn btn-lg btn-info" data-toggle="popover" 
-                                         data-placement="bottom" title="Vaquita" data-content="        
-                                        <h4> Nombre: '+cortes.nombre+'</h4>
-                                        <h6> Peso: '+cortes.peso+'</h6>
-                                        <h6> Precio: '+cortes.precio+'</h6>">Info</button>';
-                        codigo += '<button type="button"  class="btn btn-lg btn-danger" data-toggle="popover" 
-                                        data-placement="bottom" title="Popover title" data-content="pdf">Pdf</button>';
-                        codigo += '</div>';
                         codigo += '</li>';
 
-
                     });
-                    $('#listadoGanado').html(codigo);
+                    $('#product-list').html(codigo);
                 }
                 else {
                     }
+
+                 }   
+
+            });
+});
+
 </script>
+
+
+
+

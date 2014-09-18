@@ -13,7 +13,7 @@
                 </ul>
             </dd>
 
-            <dt><a class="product-menu-font2" href="#">Cortes</a></dt>
+            <dt><a class="product-menu-font2" href="#" id="corte">Cortes</a></dt>
             
             <dt><a class="product-menu-font2" href="#">Lácteos</a></dt>
             <dd>
@@ -35,6 +35,5 @@
 <script type="text/javascript" src="js/acordeonProductos.js"></script>
 <script type="text/javascript" src="js/seleccionadoProductos.js"></script>
 <script type="text/javascript" src="js/cambiaContenido.js"></script>
-<script>$(function () { $("[data-toggle='popover']").popover();  });</script>
 
 

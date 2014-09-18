@@ -23,4 +23,7 @@ $(document).ready(function(){
     $('#mantequilla').click(function(){
         $('#product-right-container').load('templates/secciones/mantequilla.php');
     });
+    $('#corte').click(function(){
+        $('#product-right-container').load('templates/secciones/cortes.php');
+    });
 });
