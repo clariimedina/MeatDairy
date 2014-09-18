@@ -1,6 +1,8 @@
 <header id="header-container">
     <div id="two-parts">
-        <div id="header-left"></div>
+        <div id="header-left">
+            <img id="banner-header"src="images/imagenesInicio/banner5.png">
+        </div>
     	<div id="header-right">
             <div id="header-icon">
                 <i id="header-icon-one" class="fa fa-facebook-square fa-2x header-format-icon"></i>
@@ -17,7 +19,6 @@
     		</div>
     	</div>
     </div>
-    <div id="header-line"></div>
     <div id="header-image-cow-head" class="dance"><img src="images/logo/logo.png" id="image-cow-head"></div>
 </header>
 

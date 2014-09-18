@@ -7,16 +7,19 @@
 
 /*Header index*/
 #general-container {
-	position: absolute;
+	position:absolute;
 	width: 100%;
 	height:100%;
-	/*background-color: pink;*/
 }
 
 #header-container {
 	width: 100%;
 	height: 18%;
 	background-color: #1FA67A;
+	position:relative;
+	border-bottom-style:solid;
+	border-bottom-color:#CCCCCC;
+	border-bottom-width:15px;
 }
 
 #two-parts {
@@ -32,6 +35,10 @@
 	/*background-color: red;*/
 }
 
+#banner-header {
+	width:250px;
+	margin-left:20%;
+}
 #header-right {
 	float: right;
 	width: 50%;
@@ -115,10 +122,10 @@
 
 #header-image-cow-head {
 	position: absolute;
-	margin-top: -8%;
+	margin-top: -6%;
 	margin-left: 43%;
 	height: 10px;
-	z-index: 99999;
+	z-index: 100;
 }
 
 #image-cow-head {
@@ -625,7 +632,13 @@
 	background-color: #1FA67A;
 	color: white;
 }
+#link-PDF{
+	text-decoration:none;
+	color:white;
+}
+#link-PDF-container {
 
+}
 #product-list li button:focus {
 	outline-color:#1FA67A; 
 } 
@@ -635,4 +648,18 @@
 	-webkit-box-shadow:0 0px 10px #1FA67A;
     -moz-box-shadow:0 0px 10px #1FA67A;
     box-shadow:0 0px 10px #1FA67A;
-} 
+}
+#link-PDF-razas{
+	text-decoration:none;
+	color:white;
+}
+#link-PDF-razas-container {
+
+	margin-left:75%;
+	margin-top: 1%;
+	background-color:#343434;
+	margin-right:2%;
+	padding-left:4px;
+	border-radius:5px;	
+}
+

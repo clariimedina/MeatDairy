@@ -17,7 +17,7 @@
 			<?php include("templates/encabezado.php"); ?>
 			
 			<div id="content">
-				<?php include("templates/carrusel.php"); ?>	
+				<?php include("templates/carrusel.php"); ?>
 
 			</div>
 			<?php include("templates/pie.php"); ?>
@@ -31,10 +31,7 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/funcionCarrusel.js"></script>
 	<script type="text/javascript" src="js/cambiaContenidoIndex.js"></script>
-	 <script>$(function () 
-      { $("[data-toggle='popover']").popover();
-      });
-   </script>
+
 
 	</body>
 </html>

@@ -1,14 +1,13 @@
 
-$('#btn-pdf').click( function generapdf(response) {
-    console.log("kañdsañ");
+function generapdf(index) {
+    console.log(index);
     var codigo='';
     $.ajax({
-            url: "http://localhost/documentsProject/index.php/api/GenerarPDF?producto=1", // URL del recurso
+            url: "", // URL del recurso
             type: "POST", 
             dataType: "json",
             data:{codigo: codigo},
             success: function(response) {
-                
                 if (response.success == true) {
                     $.each(response.ganados, function(index, ganado) { // function(Index,ganado)
 
@@ -23,8 +22,7 @@ $('#btn-pdf').click( function generapdf(response) {
                         codigo += '</li>';
 
                     });
-                return;
                 }
             }
         });
-});
+}

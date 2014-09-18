@@ -1,5 +1,9 @@
 <section>
-    <ul id="lista-prod" >
+    <div id="link-PDF-razas-container">
+        <a id="link-PDF-razas" href="http://localhost/documentsProject/index.php/api/GenerarPDF?raza=3" target="_blank">Descargar toda la información</a>
+    </div>
+    <ul id="product-list" >
+
 
     </ul>
 </section>
@@ -16,61 +20,31 @@ $(document).ready(function(response) {
                 var codigo='';
                 if (response.success == true) {
                     $.each(response.ganados, function(index, ganado) { // function(Index,ganado)
-/*
-                        codigo += '<li style=\"display: inline-block;\">';
-                        codigo += '<li style=\"display: inline-block;\">';
-                        codigo += '<a class="fancybox" rel="gallery1" href="images/imagenesProductos/'+ganado.foto+'" title="">'
-                        codigo += '<img width=200 src="images/imagenesProductos/'+ganado.foto+'">';
-                        codigo += '</a>'
-                        codigo += '<h4>'+ganado.nombre+'</h4>';
-                        codigo += '<h6>'+ganado.peso+'</h6>';
-                        codigo += '<h6>'+ganado.precio+'</h6>';
-                        codigo += '<h6>'+ganado.raza+'</h6>';
 
-                        codigo += '</li>';
-                    });
-                    $('#listabelmont').html(codigo);
-                    return codigo;
-                }
-                else {
-
-                }
-            */
-                        codigo += '</li>';
-                        codigo += '<li style="list-style:none; display: inline-block;">';
-                        codigo += '<div style="width:60%;">';
-                        codigo += '<a class="fancybox" rel="gallery1" href="images/imagenesProductos/'+ganado.foto+'" title="">';
-                        codigo += '<img width=200 height=200 src="images/imagenesProductos/'+ganado.foto+'">';
+                        codigo += '<li style=\"list-style:none;display: inline-block;\">';
+                        codigo += '<p> Nombre: '+ganado.nombre+'<br>';
+                        codigo += 'Peso: '+ganado.peso+'</p>';
+                        codigo += '<a class="fancybox" rel="gallery1" href="images/imagenesProductos/Ganado/Angus/'+ganado.foto+'" title="">';
+                        codigo += '<img width=200 src="images/imagenesProductos/Ganado/Angus/'+ganado.foto+'">';
                         codigo += '</a>';
-                        codigo += '<button  type="button"  class="btn btn-lg btn-info" data-toggle="popover" 
-                                         data-placement="bottom" title="Vaquita" data-content="        
-                                        <h4> Nombre: '+ganado.nombre+'</h4>
-                                        <h6> Peso:'+ganado.peso+'</h6>
-                                        <h6> Precio:'+ganado.precio+'</h6>
-                                        <h6> Raza:'+ganado.raza+'</h6>">Info</button>';
-                        codigo += '<button type="button"  class="btn btn-lg btn-danger" data-toggle="popover" 
-                                        data-placement="bottom" title="Popover title" data-content="pdf">Pdf</button>';
+                        codigo += '<div id="link-PDF-container">';         
+                        codigo += '<a id="link-PDF" href="http://localhost/documentsProject/index.php/api/GenerarPDF?producto='+ganado.id+'" target="_blank">Información...</a>';
                         codigo += '</div>';
                         codigo += '</li>';
 
-
                     });
-                    $('#lista-prod').html(codigo);
+                    $('#product-list').html(codigo);
                 }
                 else {
                     }
-<<<<<<< HEAD
 
-                                  }   
+                 }   
 
             });
-
-});
-=======
-            }
-        });
 });
 
-             
->>>>>>> c0a6172487ece550d29323e5a2d7576d1594d38a
 </script>
+
+
+
+
