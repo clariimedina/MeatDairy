@@ -1,8 +1,7 @@
-<!-- seccion de para mostrar el ganado de raza angus -->
-
 <section>
-    <a href="http://localhost/documentsProject/index.php/api/GenerarPDF?raza=1" target="_blank">Generar PDF (Todos)</a>
-    <ul id="lista-prod" >
+    <a href="http://localhost/documentsProject/index.php/api/GenerarPDF?raza=2" target="_blank">Generar PDF (Todos)</a>
+    <ul id="product-list" >
+
 
     </ul>
 </section>
@@ -21,24 +20,26 @@ $(document).ready(function(response) {
                     $.each(response.ganados, function(index, ganado) { // function(Index,ganado)
 
                         codigo += '<li style=\"list-style:none;display: inline-block;\">';
-                        codigo += '<div style="width:60%;">';
+                        codigo += '<p> Nombre: '+ganado.nombre+'<br>';
+                        codigo += 'Peso: '+ganado.peso+'<br>';
+                        codigo += 'Precio: '+ganado.precio+'</p>';
                         codigo += '<a class="fancybox" rel="gallery1" href="images/imagenesProductos/Ganado/Angus/'+ganado.foto+'" title="">';
                         codigo += '<img width=200 src="images/imagenesProductos/Ganado/Angus/'+ganado.foto+'">';
-                        codigo += '</a>';
+                        codigo += '</a>';          
                         codigo += '<a href="http://localhost/documentsProject/index.php/api/GenerarPDF?producto='+ganado.id+'" target="_blank">Generar PDF</a>';
-                        codigo += '</div>';
                         codigo += '</li>';
+
                     });
-                    $('#lista-prod').html(codigo);
+                    $('#product-list').html(codigo);
                 }
                 else {
+                    }
 
-                }
-            }
-        });
+                 }   
+
+            });
+
 });
+
 </script>
 
-
-
-                  

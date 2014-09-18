@@ -23,8 +23,8 @@ $(document).ready(function(response) {
                         codigo += '<p> Nombre: '+ganado.nombre+'<br>';
                         codigo += 'Peso: '+ganado.peso+'<br>';
                         codigo += 'Precio: '+ganado.precio+'</p>';
-                        codigo += '<a class="fancybox" rel="gallery1" href="images/imagenesProductos/'+ganado.foto+'" title="">';
-                        codigo += '<img width=200 src="images/imagenesProductos/'+ganado.foto+'">';
+                        codigo += '<a class="fancybox" rel="gallery1" href="images/imagenesProductos/Ganado/Angus/'+ganado.foto+'" title="">';
+                        codigo += '<img width=200 src="images/imagenesProductos/Ganado/Angus/'+ganado.foto+'">';
                         codigo += '</a>';          
                         codigo += '<a href="http://localhost/documentsProject/index.php/api/GenerarPDF?producto='+ganado.id+'" target="_blank">Generar PDF</a>';
                         codigo += '</li>';
