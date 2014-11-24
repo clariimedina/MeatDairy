@@ -17,7 +17,7 @@
             <div class="about-font-icon"><i class="fa fa-eye fa-2x"></i></div>
             <div class="about-font-title">Visión</div>
             <div class="about-line">
-                <p>Meat Dairy busca consolidarse, crecer y posicionarse como una organización lider, reconocida por la calidad de sus productos y por la efectividad de asegurar
+                <p>Meat&Dairy busca consolidarse, crecer y posicionarse como una organización líder, reconocida por la calidad de sus productos y por la efectividad de asegurar
                 las necesidades y expectativas de sus consumidores, en un marco de atención y servicio competetivo para sus 
                 clientes.</p>
             </div>

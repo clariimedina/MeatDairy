@@ -1,6 +1,6 @@
 <section>
     <div id="link-PDF-razas-container">
-        <a id="link-PDF-razas" href="http://localhost/documentsProject/index.php/api/GenerarPDF?raza=2" target="_blank">Descargar toda la información</a>
+        <a id="link-PDF-razas" href="http://meatdairy.esy.es/documentsProject/index.php/api/GenerarPDF?raza=2" target="_blank">Descargar toda la información</a>
     </div>
     <ul id="product-list" >
 
@@ -12,7 +12,7 @@
 <script type="text/javascript">
 $(document).ready(function(response) {
     $.ajax({
-            url: "http://localhost/documentsProject/index.php/api/obtieneGanado?raza=2", // URL del recurso
+            url: "http://meatdairy.esy.es/documentsProject/index.php/api/obtieneGanado?raza=2", // URL del recurso
             type: "GET", 
             dataType: "json",
             success: function(response) {
@@ -29,7 +29,7 @@ $(document).ready(function(response) {
                         codigo += '<img src="images/imagenesProductos/Ganado/beefmaster/'+ganado.foto+'">';
                         codigo += '</a>';          
                         codigo += '<div id="link-PDF-container">';         
-                        codigo += '<a id="link-PDF" href="http://localhost/documentsProject/index.php/api/GenerarPDF?producto='+ganado.id+'" target="_blank">Información...</a>';
+                        codigo += '<a id="link-PDF" href="http://meatdairy.esy.es/documentsProject/index.php/api/GenerarPDF?producto='+ganado.id+'" target="_blank">Información...</a>';
                         codigo += '</div>';
                         codigo += '</li>';
                     });

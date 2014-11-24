@@ -9,7 +9,7 @@
 <script type="text/javascript">
 $(document).ready(function(response) {
     $.ajax({
-            url: "http://localhost/documentsProject/index.php/api/ObtieneLacteos?tipo=1", // URL del recurso
+            url: "http://meatdairy.esy.es/documentsProject/index.php/api/ObtieneLacteos?tipo=1", // URL del recurso
             type: "GET", 
             dataType: "json",
             success: function(response) {

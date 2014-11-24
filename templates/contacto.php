@@ -47,7 +47,7 @@
 			<div id="contact-info-container">
 				<p>
 					Blvd. Enrique Sánchez Alonso. <br> 
-					Col. Enrique Felix Castro <br>
+					Col. Enrique Félix Castro <br>
 					Culiacán, Sinaloa. México <br>
 				</p>
 				<p>
