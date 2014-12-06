@@ -7,6 +7,7 @@
     </ul>
 </section>
 <!-- script para mostrar el contenido de cada vaca raza angus -->
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
  <script type="text/javascript">
 $(document).ready(function(response) {
     $.ajax({
